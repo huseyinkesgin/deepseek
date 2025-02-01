@@ -1,3 +1,5 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,3 +7,21 @@
 [x-cloak] {
     display: none;
 }
+
+select {
+   
+    width: 100% !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border: 1px solid slategray !important;
+    outline: none !important;
+    min-width: 70px !important;
+  }
+  select:focus {
+    border: 1px solid slategray !important;
+    border-color: slategray !important;
+  }
+  select:hover {
+    border: 1px solid slategray !important;
+    border-color: slategray !important;
+  }

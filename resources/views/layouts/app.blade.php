@@ -34,12 +34,13 @@
 
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                {{ $slot ?? '' }}
             </main>
         </div>
 
         @stack('modals')
-
+        @stack('scripts')
         @livewireScripts
+
     </body>
 </html>
